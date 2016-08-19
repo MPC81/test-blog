@@ -46,6 +46,11 @@ $navbar-default-bg: #003768;
     background-color: #FF331F;
 }
 
+.article-meta-details {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+}
+
 .article-acitons {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
@@ -63,7 +68,7 @@ $navbar-default-bg: #003768;
 .article-body {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
-    padding-bottom: 15;
+    padding-bottom: 15px;
 }
 
 footer {
