@@ -1,4 +1,4 @@
-$navbar-default-bg: #003768;
+$navbar-default-bg: #1C354C;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -6,7 +6,7 @@ $navbar-default-bg: #003768;
 #logo {
     float: left;
     font-size: 1.7em;
-    color: #FF331F;
+    color: #2595FF;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
@@ -17,19 +17,23 @@ $navbar-default-bg: #003768;
     text-decoration: none;
 }
 
+body {
+    background-color: #11E9FF;
+}
+
 .center {
     text-align: center;
 }
 
 .jumbotron {
-    //background-image: asset-url('face.jpg');
-    //background-size: cover;
-    //height: 550px;
-    background-color: #003768;
+    background-image: asset-url('mTrader.png');
+    background-size: cover;
+    height: 550px;
+    //background-color: #003768;
 }
 
 .jumbotron h1 {
-    color: #FF331F;
+    color: #2595FF;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: -1px;
@@ -38,12 +42,12 @@ $navbar-default-bg: #003768;
 
 .btn-xlarge {
     font-size: 1.7em;
-    background-color: #FF331F;
+    background-color: #2595FF;
 }
 
 .btn-xlarge:hover {
     font-size: 1.7em;
-    background-color: #FF331F;
+    background-color: #2595FF;
 }
 
 .article-meta-details {
