@@ -1,4 +1,9 @@
-$navbar-default-bg: #1C354C;
+$navbar-default-bg: transparent;/* #1C354C;
+
+/*.navbar-inner {
+    background-color: transparent;
+}
+*/
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
